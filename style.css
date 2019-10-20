@@ -1,0 +1,135 @@
+.header{
+	width: 100%;
+	height: 90px;
+	background: #283238;
+}
+.header_inside{
+	width: 1000px;
+	height: 90px;
+	margin: auto;
+	border: 0px greenyellow solid;
+}
+.logo{
+	display: block;
+	width: 83px;
+	height: 59px;
+	margin: 10px 0 0 0;
+	float: left;
+	background: url("imeges/bee.png");
+}
+.phone{
+	margin: 30px 0 0 0;
+	float: right;
+	color: greenyellow;
+	font-size: 14px ;
+	font-family: Verdana;
+	cursor: pointer;
+}
+.header_boton{
+	width: 100%;
+	height: 290px;
+	background: url("imeges/honey.jpg");
+}
+.blok_main{
+	width: 100%;
+	min-height: 300px;
+}
+.blok_main_inside{
+	width: 1000px;
+	min-height: 300px;
+	margin: auto;
+	border: 0px #00f solid;
+}
+.menu{
+	padding: 20px 0 0 0;
+}
+.menu a {
+	display: inline-block;
+	width: 162px;
+	height: 48px;
+	text-align: center;
+	font-family: Verdana;
+	line-height: 48px;
+	border: 5px cadetblue solid;
+	cursor: pointer;
+}
+.content{
+	margin: 0 0 50px 0;
+	font-family: Verdana;
+}
+.footer{
+	width: 100%;
+	height: 235px;
+	background: #2a2a2a;
+}
+.footer_inside{
+	width: 1000px;
+	height: 235px;
+	margin: auto;
+	padding: 70px 0 0 0;
+	border: 0px #ff0000 solid;
+}
+.predlogenie{
+	font-size: 24px;
+	font-family: Verdana;
+	color: cadetblue;
+}
+.vklink{
+	font-size: 30px;
+	color: cadetblue;
+	cursor: pointer;
+}
+.form{
+	display: none;
+	box-sizing: border-box;
+	width: 400px;
+	padding: 45px;
+	background:#2a2a2a;
+	font-size: 14px;
+	position: fixed;
+	left: 35%;
+	top: 35%;
+	text-align: center;
+	z-index: 100;
+}
+.form h5{
+	font-size: 18px;
+	color: cadetblue;
+	text-transform: uppercase;
+}
+.form input{
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	margin: 10px 0;
+	padding: 0 10px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: left;
+}
+.form input[tupe="subit"]{
+	background: cadetblue;
+	color: red;
+	border: 0;
+	cursor: pointer;
+	outline:none;
+	text-align: center;
+	text-transform:uppercase;
+	font-weight: 700;
+	color: #000;
+}
+.form a{
+	position: absolute;
+	right:20px;
+	top:20px;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 20px ;
+	cursor: pointer;
+}
+.phone{
+	margin: 10px 0 0 0;
+	font-size: 20px;
+	font-family: Verdana;
+	color: cadetblue;
+}
