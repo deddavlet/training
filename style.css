@@ -13,7 +13,7 @@
 	display: block;
 	width: 83px;
 	height: 59px;
-	margin: 10px 0 0 0;
+	margin: 10px 0 0 10px;
 	float: left;
 	background: url("imeges/bee.png");
 }
@@ -32,13 +32,14 @@
 }
 .blok_main{
 	width: 100%;
-	min-height: 300px;
+	min-height: 2000px;
 }
 .blok_main_inside{
 	width: 1000px;
-	min-height: 300px;
+	min-height: 2000px;
 	margin: auto;
-	border: 0px #00f solid;
+	border: 2px #00f solid;
+	background: #474747;
 }
 .menu{
 	padding: 20px 0 0 0;
@@ -132,4 +133,61 @@
 	font-size: 20px;
 	font-family: Verdana;
 	color: cadetblue;
+}
+.product-wrapper{
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width.2s;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper{
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.product-wrapper{
+		width: 33.333%;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	.product-wrapper{
+		width: 25%;
+	}
+}
+.product {
+	display: block;
+	border: 1px solid #b5e9a7;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 300px;
+}
+.products{
+	list-style: none;
+	margin: 0 20px 0 20px;
+	padding: 0;
+	border: 0px red solid;
+}
+.product-photo{
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+.product-photo img {
+	position: absolute;
+	top: 0;
+	botton: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+.product:hover .product-photo img{
+	transform: scale(1.5);
 }

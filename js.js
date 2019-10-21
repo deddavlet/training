@@ -4,3 +4,4 @@ function show() {
 function hide() {
 	form.style.display="none"
 }
+main_scroll
